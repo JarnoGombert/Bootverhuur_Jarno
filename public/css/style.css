@@ -1,0 +1,287 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans';
+}
+
+.home {
+    width: 1519px;
+    height: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    text-align: center;
+}
+
+.bootas {
+    width: 1519px;
+    height: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    text-align: center;
+    vertical-align: middle;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0px auto;
+    padding: 0px 40px;
+}
+/* header  { */
+    .logo {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .img-nav {
+        max-width: 60px;
+        max-height: 50px;
+        padding-right: 10px;
+        align-items: center;
+    }
+
+    section.hero{
+        height: 500px;
+        width: 100%;
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/boot.jpg'); 
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    section.hero .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        color: white;
+    }
+
+    section.hero .content h1{
+        font-size: 46px;
+        margin: 0px;
+    }
+
+
+    section.hero .content h3{
+        margin: 0px;
+    }
+
+    .header {
+        overflow: hidden;
+        background-color: rgb(98, 171, 231);
+        padding: 20px 20px;
+        display: flex;
+    }
+      
+      /* Style the header links */
+      .header a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        border-radius: 4px;
+      }
+      
+      /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+      .header a.logo {
+        font-size: 25px;
+        font-weight: bold;
+      }
+      
+      /* Change the background color on mouse-over */
+      .header a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      /* Style the active/current link*/
+      .header a.active {
+        background-color: dodgerblue;
+        color: white;
+      }
+      
+      /* Float the link section to the right */
+      .header-right {
+        float: right;
+        margin-left: 550px;
+      }
+      
+      /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+      @media screen and (max-width: 500px) {
+        .header a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+        .header-right {
+          float: none;
+        }
+      }
+/*}*/
+
+/* Footer { */
+    footer{
+        background-color: rgb(98, 171, 231);
+        width: 100%;
+        color: #050505;
+        padding: 30px 0px;
+    }
+    
+    footer .container{
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+    }
+    
+    footer .container .column{
+        margin-right: 120px;
+    }
+    
+    footer .container .column p{
+        margin: 10px 0px;
+    }
+    
+    footer .container .column ul{
+        padding: 0px;
+        list-style: none;
+    }
+    
+    footer .container .column li a{
+        color: #050505;
+        text-decoration: none;
+        margin: 10px 0px;
+    }
+/* } */
+
+/* Contact */
+    .mail div{
+        display: flex; 
+        justify-content: space-evenly;
+    }
+
+    .mail div p a{
+        text-decoration: none;
+    }
+
+    .mail h3{
+        text-align: center;
+    }
+
+    .contact {
+        margin-top: 20px;
+        margin: 0px auto;
+        height: auto;
+        width: 1500px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+    .info {
+        display: inline-block;
+    }
+
+    .info div {
+        margin-top: 5px;
+    }
+
+    #input {
+        background-color: rgb(98, 171, 231);
+        border-radius: 5px;
+        border: 3px solid rgb(67, 133, 187);
+        color: white;
+    }
+
+    .footerMenu a {
+        color: black;
+        text-align: center;
+        padding: 2px;
+        margin-bottom: 14px;
+        text-decoration: none;
+        font-size: 15px;
+        border-radius: 4px;
+        word-spacing: 2px;
+      }
+
+      .footerMenu a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+/* line-up { */
+    .page{
+        padding-top: 60px;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .assortiment {
+        margin: 0 auto;
+        max-width: 1200px;
+        height: auto;
+        justify-content: space-evenly;
+        margin-top: 10px;
+    }
+    .vakje {
+        width: 1200px;
+        height: auto;
+        background-color: rgb(67, 133, 187);
+        padding: 30px 30px;
+        display: flex;
+        margin: 20px 20px;
+    }
+    .vakje img {
+        width: 350px;
+        height: 350px;
+    }
+    .vakje img:hover {
+        transition: width 1.0s, height 1.0s;
+        width: 400px;
+        height: 400px;
+    }
+    .vakje div div {
+        text-align: right;
+        padding: 60px 60px;
+    }
+    .reseveren{
+        border: 2px solid black;
+        border-radius: 40px;
+        padding: 10px 10px 10px 10px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        font-size: 15px;
+    }
+    .reseveren:hover{
+        color: blue;
+        border: 2px solid blue;
+    }
+    
+/* }einde line-up*/
+
+    .Beheer{
+        margin-top: 20px;
+        margin: 0px auto;
+        height: auto;
+        width: 1500px;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+
+    i{
+        height: 50px;
+        width: 50px;
+    }
+
+    #bevestiging{
+        margin: 30px 30px;
+    }
